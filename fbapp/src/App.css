@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dpic{
+  border-radius: 30px;
+  position: absolute;
+  display: flex;
+  height:100px;
+  width:100px;
+  left:90%;
+  top: 30px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 80px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* padding-top: 40px; */
+  background-color: rgba(5, 5, 105, 0.89);
+  }
+  
+  .sidebar div {
+  padding: 8px;
+  font-size: 10px;
+  display: block;
+  }
+  
+  .body-text {
+  margin-left: 150px;
+  font-size: 18px;
+  }
+  .imgpr{
+    height:30px;
+    width:30px;
+  }
+  .dpuser{
+    position: absolute;
+    bottom: 50px;
+    border-radius: 90%;
+    height:30px;
+    width:30px;
+  }
+  .ddp{
+    height:30px;
+    width:30px;
+    border-radius: 90%;
+  }
+  .logor{
+    /* position: relative; */
+    top:30px;
+    height:50px;
+    width:40px;
+  }
+  .sidebtn{
+    border: none;
+    background-color: transparent;
+
+  }
+  .sidebtn :hover{
+    background-color: white;
+    border:100px;
+  }
+  #container{
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    left: 81px;
+    top: 0;
+    /* padding-top: 40px; */
+    background-color: white;
+    border-right: 2px solid rgb(241, 235, 235);
+  }
+
+  .secondsec{
+    height:70px;
+    border:2 px solid rgb(241, 235, 235);
+  }
+  .convheader{
+    /* height: 70px; */
+    padding-left :30px;
+    /* border-bottom: 2px solid rgb(241, 235, 235); */
+    font-size: bold;
+    display: inline-block;
+  }
+  .convt{
+    font-size: large;
+    font-weight: bold;
+  }
+  .notespos{
+    left:30px;
+  }
+ 
