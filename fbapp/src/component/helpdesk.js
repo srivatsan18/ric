@@ -29,16 +29,22 @@ export default class helpdesk extends Component {
                      <div className="convheader convt">Converstions</div>
                      <div className="convheader reloadpos"><button className="reloadbtn"><img className= "reloadlogo" src={reload}></img></button></div>
                     </div>
+                    <div className="secondsec"></div>
+                    <div className="secondsec"></div>
+                    <div className="secondsec"></div>
                 </div>
                 <div className="msg">
-
+                    <div className="tit">{this.state.name}</div>
+                    <div className="chat"></div>
+                    <div className="textarea"><textarea placeholder="Enter your messgae"></textarea></div>
                 </div>
                 <div id="usrpro">
-                    
-                </div>
+                  
                 </div>
                 <div class="body-text">
-
+                <div>Profile</div>
+                    <img className="imgpr" src={this.state.picture} alt={this.state.name}></img>
+                    </div>
                 </div>
     
             </div>

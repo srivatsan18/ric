@@ -127,4 +127,27 @@
   .notespos{
     left:30px;
   }
- 
+ .secondsec{
+   height:70px;
+   border-bottom:2px solid rgb(241, 235, 235);
+ }
+ .msg{
+   width:80%;
+   height:100%;
+   position: absolute;
+   border-right: 2px solid rgb(241, 235, 235);
+ }
+'
+'
+.tit{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height:70px;
+  border-bottom:2px solid rgb(241, 235, 235);
+}
+.textarea{
+  position:absolute;
+  bottom: 5%;
+  right:400px;
+}
